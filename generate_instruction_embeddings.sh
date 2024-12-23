@@ -1,0 +1,1 @@
+python generate_instruction_embeddings.py  --task_ids 0 1 2 --input_files ./data/grasp-instructions.txt ./data/stack-instructions.txt ./data/transfer-instructions.txt  --train_output_file  ./data/instruction_embeddings.train.csv --val_output_file ./data/instruction_embeddings.val.csv
